@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import Head from 'next/head'
 
 const Home: React.FC = () => {
@@ -8,7 +8,6 @@ const Home: React.FC = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       react-next-demo
     </div>
   )
