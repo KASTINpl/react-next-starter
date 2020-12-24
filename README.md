@@ -3,6 +3,7 @@
 - React ^17 + Next.js ^10 + TypeScript ^4
 - MaterialUI ^5
 - Prettier + ESlint + AirBnb + Husky
+- Redux + Redux-toolkit
 
 ## Getting Started
 
