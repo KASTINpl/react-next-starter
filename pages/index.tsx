@@ -1,16 +1,8 @@
 import React from 'react'
-import Head from 'next/head'
+import BaseLayout from 'ui/BaseLayout'
 
 const Home: React.FC = () => {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      react-next-demo
-    </div>
-  )
+  return <BaseLayout title="react next demo">react-next-demo</BaseLayout>
 }
 
 export default Home
