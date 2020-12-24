@@ -1,11 +1,22 @@
 {
   "name": "react-next-demo",
-  "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "version": "1.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint '*/**/*.{js,ts,tsx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --cache --fix",
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "next": "10.0.4",
@@ -15,6 +26,20 @@
   "devDependencies": {
     "@types/node": "^14.14.16",
     "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.6",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
 }
