@@ -3,13 +3,19 @@ import { useDispatch } from 'react-redux'
 import { AppDispatch } from 'store/AppStoreProvider'
 import { setSessionStatus } from 'store/session'
 import BaseLayout from 'ui/BaseLayout'
+import UserSessionStatus from 'components/UserSessionStatus'
 
 const Home: React.FC = () => {
   const dispatch: AppDispatch = useDispatch()
   useEffect(() => {
     dispatch(setSessionStatus('LOGGED_IN'))
   }, [])
-  return <BaseLayout title="react next demo">react-next-demo</BaseLayout>
+  return (
+    <BaseLayout title="react next demo">
+      react-next-demo
+      <UserSessionStatus />
+    </BaseLayout>
+  )
 }
 
 export default Home
