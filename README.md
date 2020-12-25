@@ -4,6 +4,7 @@
 - MaterialUI ^5
 - Prettier + ESlint + AirBnb + Husky
 - Redux + Redux-toolkit
+- Plop.js scripts
 
 ## Getting Started
 
@@ -12,6 +13,14 @@ First, run the development server:
 ```bash
 yarn dev
 ```
+
+## Create a new component
+
+```bash
+yarn plop component NewComponent
+```
+
+see `./plop-templates/component`
 
 ## Learn More
 

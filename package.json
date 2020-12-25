@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "plop": "plop",
     "lint": "eslint '*/**/*.{js,ts,tsx}'"
   },
   "husky": {
@@ -49,6 +50,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.6",
     "lint-staged": ">=10",
+    "plop": "^2.7.4",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
