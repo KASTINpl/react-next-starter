@@ -9,7 +9,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - Prettier + ESlint + AirBnb + Husky
 - Redux + Redux-toolkit
 - [todo] Cypress.io + JEST
-- [todo] Storybook
+- Storybook ^6
 - [todo] Github actions
 - Plop.js scripts
 
@@ -82,7 +82,7 @@ Build Storybook documentation for production use.
 Create a new component
 see `./plop-templates/component`
 
-## Built upon fabulous libraries and tools
+## Libraries and tools
 
 This starter pack has solutions for Rendering, Styling, Routing, Server-Side-Rendering, Type checking, Linting, Testing, Documentation and Building
 
