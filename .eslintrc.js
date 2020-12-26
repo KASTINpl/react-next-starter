@@ -16,7 +16,7 @@ module.exports = {
     },
     'import/resolver': {
       node: {
-        paths: ['src', 'pages'],
+        paths: ['components', 'pages'],
         extensions: ['.ts', '.tsx'],
       },
     },
@@ -43,4 +43,12 @@ module.exports = {
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
   },
+  overrides: [
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
 }
