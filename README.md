@@ -4,14 +4,14 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 
 ## Features
 
-- React ^17 + Next.js ^10 + TypeScript ^4
-- MaterialUI ^5
-- Prettier + ESlint + AirBnb + Husky
-- Redux + Redux-toolkit
-- [todo] Cypress.io + JEST
-- Storybook ^6
+- [React](https://github.com/facebook/react/) ^17 + [Next.js](https://nextjs.org) ^10 + [TypeScript](https://github.com/Microsoft/TypeScript) ^4
+- [MaterialUI](https://material-ui.com) ^5
+- [Prettier](https://github.com/prettier/prettier) + [ESLint](https://github.com/eslint/eslint) + [AirBnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) + [Husky](https://github.com/typicode/husky)
+- [Redux](https://redux.js.org) + [Redux toolkit](https://redux-toolkit.js.org)
+- [todo] [Cypress](https://github.com/cypress-io/cypress) + [Jest](https://github.com/facebook/jest)
+- [Storybook](https://github.com/storybooks/storybook) ^6
 - [todo] Github actions
-- Plop.js scripts
+- [PlopJS](https://plopjs.com) scripts
 
 ## Getting started
 
@@ -82,36 +82,7 @@ Build Storybook documentation for production use.
 Create a new component
 see `./plop-templates/component`
 
-## Libraries and tools
-
-This starter pack has solutions for Rendering, Styling, Routing, Server-Side-Rendering, Type checking, Linting, Testing, Documentation and Building
-
-### [Next.js](https://nextjs.org)
-
-Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
-
-### [MaterialUI](https://material-ui.com)
-
-React components for faster and easier web development. Build your own design system, or start with Material Design.
-
-### [TypeScript](https://github.com/Microsoft/TypeScript)
-
-The addition of types to JavaScript allows code-completion and better static code analysis.
-
-### [React](https://github.com/facebook/react/)
-
-Rendering library that makes component-based development easy and fun. Functional components in combination with hooks and context API allow flexible adjustments to many application needs.
-
-In this starter project, hooks and context are used to create a simple and versatile store.
-
-_Implicitly used by Next.js_
-
-### [Redux](https://redux.js.org) + [Redux toolkit](https://redux-toolkit.js.org)
-
-A Predictable State Container for JS Apps
-The official, opinionated, batteries-included toolset for efficient Redux development
-
-### [Jest](https://github.com/facebook/jest)
+## Testing
 
 Testing framework with many built-in features like code coverage or snaptshot testing.
 
@@ -119,34 +90,6 @@ Testing framework with many built-in features like code coverage or snaptshot te
 
 Additionally, [Majestic](https://github.com/Raathigesh/majestic/) is used as a UI for Jest.
 
-### [Cypress](https://github.com/cypress-io/cypress)
-
 For Browser-based integration tests. Watches source code and automatically executes all tests on every change. With time-travel and real debugging, also records videos for failing tests.
 
 [cypress-testing-library](https://github.com/testing-library/cypress-testing-library) is another lightweight toolset to query dom elements.
-
-### [Storybook](https://github.com/storybooks/storybook)
-
-Visualize isolated components for development and testing. Also for creating style guides. Addons provide additional benefits like switching between mobile viewports or automatic a11y profiling.
-
-### [ESLint](https://github.com/eslint/eslint)
-
-Parse source code and find unwanted patterns. Great way to establish best practices and a common code style.
-
-### [Prettier](https://github.com/prettier/prettier)
-
-Complements ESLint to support a consistent and aesthetic code style. Most formatting issues can be automatically fixed.
-
-### [Husky](https://github.com/typicode/husky)
-
-Handy git hooks to prevent bad `git commit` or `git push`.
-
-### [PlopJS](https://plopjs.com)
-
-Plop is a little tool that saves you time and helps your team build new files with consistency.
-
-### [Babel](https://github.com/babel/babel)
-
-Foundation of every modern JavaScript application stack. Compiles next-generation code into natively supported code.
-
-_Implicitly used by Next.js_

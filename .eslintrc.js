@@ -48,7 +48,12 @@ module.exports = {
       files: ['*.js'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
       },
+    },
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: { 'no-unused-vars': 'off' },
     },
   ],
 }
