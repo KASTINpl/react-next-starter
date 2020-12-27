@@ -1,13 +1,14 @@
 const path = require('path')
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
+const rootPath = path.resolve(__dirname, '../../../')
 
 module.exports = {
-  stories: ['../../src/components/**/*.stories.@(ts|tsx)'],
+  stories: [rootPath + '/src/components/**/*.stories.@(ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   webpackFinal: async config => {
     config.resolve.plugins = [
       new TsconfigPathsPlugin({
-        configFile: path.resolve(__dirname, '../../tsconfig.json'),
+        configFile: rootPath + '/tsconfig.json',
       }),
     ]
     return config
