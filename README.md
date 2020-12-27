@@ -15,65 +15,71 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 
 ## Getting started
 
-- Clone this repository and `cd` into it
-- `yarn install`
-- `yarn run dev`
+```bash
+yarn create next-app -e https://github.com/KASTINpl/react-next-starter APP_NAME
+cd APP_NAME
+yarn dev
+```
 
 ## All commands
 
-### `yarn run dev`
+### `yarn dev`
 
-Runs development server on http://localhost:3000. Page is hot reloading on code changes.
+Runs development server on [localhost:3000](http://localhost:3000).
 
-### `yarn run build`
+### `yarn build`
 
 Build application for production use.
 
-### `yarn run start`
+### `yarn start`
 
 Start built application. You need to run `build` first.
 
-### `yarn run test`
+### `yarn test`
 
 Run all tests.
 
-### `yarn run test:unit`
+### `yarn test:unit`
 
 Run all unit tests with jest.
 
-### `yarn run test:unit:coverage`
+### `yarn test:unit:coverage`
 
 Run all unit tests with jest and generate coverage reports. This will fail if constraints `coverageThreshold` in `jest.config.js` are violated.
 
-### `yarn run test:unit:update`
+### `yarn test:unit:update`
 
 Run all unit tests with jest and update all outdated snapshots.
 
-### `yarn run test:unit:ui`
+### `yarn test:unit:ui`
 
 Run majestic server to control jest via its UI.
 
-### `yarn run test:e2e`
+### `yarn test:e2e`
 
 Run all integration tests with headless cypress.
 
-### `yarn run test:e2e:ui`
+### `yarn test:e2e:ui`
 
 Run all integration tests with cypress UI.
 
-### `yarn run lint:staged`
+### `yarn lint:types`
 
-Run all linters and autofix issues on staged files.
+Run ESlint check
 
-### `yarn run typecheck`
+### `yarn lint:format`
 
-Perform type analysis on all source files.
+Run Prettier check
 
-### `yarn run storybook`
+### `yarn lint`
+
+Run `lint:types` and `lint:format` in parallel
+
+### `yarn storybook`
 
 Run Storybook server.
 
-### `yarn run storybook:build`
+### `yarn build-storybook`
 
 Build Storybook documentation for production use.
 

@@ -1,16 +1,18 @@
 {
   "name": "react-next-demo",
   "license": "MIT",
-  "version": "1.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "plop": "plop",
-    "lint": "eslint '*/**/*.{js,ts,tsx}'",
-    "storybook": "start-storybook -c storybook/config -p 6006",
-    "build-storybook": "build-storybook -c storybook/config"
+    "lint": "run-p lint:*",
+    "lint:types": "eslint '*/**/*.{js,ts,tsx}'",
+    "lint:format": "yarn prettier --check --ignore-unknown .",
+    "storybook": "start-storybook -c src/storybook/config -p 6006",
+    "build-storybook": "build-storybook -c src/storybook/config",
+    "cypress:open": "cypress open"
   },
   "husky": {
     "hooks": {
@@ -58,6 +60,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.6",
     "lint-staged": ">=10",
+    "npm-run-all": "^4.1.5",
     "plop": "^2.7.4",
     "prettier": "^2.2.1",
     "tsconfig-paths-webpack-plugin": "^3.3.0",

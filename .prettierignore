@@ -1,0 +1,7 @@
+# Project libraries
+build
+node_modules
+plop-templates
+
+# NextJS
+.next
