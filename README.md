@@ -12,6 +12,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - [Storybook](https://github.com/storybooks/storybook) ^6
 - [todo] Github actions
 - [PlopJS](https://plopjs.com) scripts
+- bonus: `WindowProgressBar` component (loading page indicator)
 
 ## Getting started
 
