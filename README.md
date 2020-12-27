@@ -63,6 +63,10 @@ Run all integration tests with headless cypress.
 
 Run all integration tests with cypress UI.
 
+### `yarn test`
+
+Run `test:unit` and `test:e2e` in parallel
+
 ### `yarn lint:types`
 
 Run ESlint check

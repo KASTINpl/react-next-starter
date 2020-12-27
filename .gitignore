@@ -25,6 +25,10 @@
 # cache
 .eslintcache
 
+# Cypress
+cypress/videos
+cypress/screenshots
+
 # debug
 npm-debug.log*
 yarn-debug.log*

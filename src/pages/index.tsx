@@ -11,8 +11,8 @@ const Home: React.FC = () => {
     dispatch(setSessionStatus('LOGGED_IN'))
   }, [])
   return (
-    <BaseLayout title="react next demo">
-      react-next-demo
+    <BaseLayout title="react next starter">
+      react-next-starter
       <UserSessionStatus />
     </BaseLayout>
   )
