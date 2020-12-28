@@ -100,3 +100,4 @@ Useful links, articles and manuals:
 
 - [How to Test React Components in TypeScript](https://www.pluralsight.com/guides/how-to-test-react-components-in-typescript)
 - [Setup Next.js with Typescript, Jest and React Testing Library](https://dev.to/maciekgrzybek/setup-next-js-with-typescript-jest-and-react-testing-library-28g5)
+- [How to Start Testing Your React Apps Using the React Testing Library and Jest](https://www.freecodecamp.org/news/8-simple-steps-to-start-testing-react-apps-using-react-testing-library-and-jest/#5-testing-react-redux)
