@@ -1,5 +1,7 @@
 # react-next-starter
 
+![GITHUB WORKFLOW badge](https://github.com/KASTINpl/react-next-starter/workflows/Github%20Workflow/badge.svg)
+
 Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usable developer tools included
 
 ## Features
@@ -11,7 +13,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - [Cypress](https://github.com/cypress-io/cypress) for `test:e2e`
 - [Jest](https://github.com/facebook/jest) + [Testing library](https://testing-library.com) for `test:unit`
 - [Storybook](https://github.com/storybooks/storybook) ^6
-- [todo] Github actions
+- Github workflow for `lint` and `test`
 - [PlopJS](https://plopjs.com) scripts
 - bonus: `WindowProgressBar` component (loading page indicator)
 
