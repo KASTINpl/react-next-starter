@@ -95,9 +95,7 @@ Build Storybook documentation for production use.
 Create a new component
 see `./plop-templates/component`
 
-## Testing
-
-Useful links, articles and manuals:
+## Useful links, articles and manuals
 
 - [How to Test React Components in TypeScript](https://www.pluralsight.com/guides/how-to-test-react-components-in-typescript)
 - [Setup Next.js with Typescript, Jest and React Testing Library](https://dev.to/maciekgrzybek/setup-next-js-with-typescript-jest-and-react-testing-library-28g5)
