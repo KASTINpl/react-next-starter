@@ -8,7 +8,8 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - [MaterialUI](https://material-ui.com) ^5
 - [Prettier](https://github.com/prettier/prettier) + [ESLint](https://github.com/eslint/eslint) + [AirBnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) + [Husky](https://github.com/typicode/husky)
 - [Redux](https://redux.js.org) + [Redux toolkit](https://redux-toolkit.js.org)
-- [todo] [Cypress](https://github.com/cypress-io/cypress) + [Jest](https://github.com/facebook/jest)
+- [Cypress](https://github.com/cypress-io/cypress) for `test:e2e`
+- [Jest](https://github.com/facebook/jest) + [Testing library](https://testing-library.com) for `test:unit`
 - [Storybook](https://github.com/storybooks/storybook) ^6
 - [todo] Github actions
 - [PlopJS](https://plopjs.com) scripts
@@ -52,9 +53,9 @@ Run all unit tests with jest and generate coverage reports. This will fail if co
 
 Run all unit tests with jest and update all outdated snapshots.
 
-### `yarn test:unit:ui`
+### `yarn test:unit:watch`
 
-Run majestic server to control jest via its UI.
+Run all unit tests with jest using developer mode - watching all the changes.
 
 ### `yarn test:e2e`
 
@@ -95,12 +96,7 @@ see `./plop-templates/component`
 
 ## Testing
 
-Testing framework with many built-in features like code coverage or snaptshot testing.
+Useful links, articles and manuals:
 
-[react-testing-library](https://github.com/testing-library/react-testing-library) is included to provide a lightweight toolset for testing react components. It's a great alternative to enzyme.
-
-Additionally, [Majestic](https://github.com/Raathigesh/majestic/) is used as a UI for Jest.
-
-For Browser-based integration tests. Watches source code and automatically executes all tests on every change. With time-travel and real debugging, also records videos for failing tests.
-
-[cypress-testing-library](https://github.com/testing-library/cypress-testing-library) is another lightweight toolset to query dom elements.
+- [How to Test React Components in TypeScript](https://www.pluralsight.com/guides/how-to-test-react-components-in-typescript)
+- [Setup Next.js with Typescript, Jest and React Testing Library](https://dev.to/maciekgrzybek/setup-next-js-with-typescript-jest-and-react-testing-library-28g5)
