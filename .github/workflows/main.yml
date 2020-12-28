@@ -27,8 +27,11 @@ jobs:
         with:
           node-version: '14'
           check-latest: true
-      - run: yarn install
+      - uses: c-hive/gha-yarn-cache@v1
+      - name: Install JS dependencies
+        run: yarn install
       - run: yarn lint
       - run: yarn build
-      - run: yarn start &
+      - name: Start NextJS server in background
+        run: yarn start &
       - run: yarn test

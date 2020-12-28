@@ -1,7 +1,6 @@
 # react-next-starter
 
-![GITHUB WORKFLOW badge](https://github.com/KASTINpl/react-next-starter/workflows/Github%20Workflow/badge.svg)
-
+![Github Workflow](https://github.com/KASTINpl/react-next-starter/workflows/Github%20Workflow/badge.svg)
 Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usable developer tools included
 
 ## Features
