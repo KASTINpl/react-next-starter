@@ -1339,10 +1339,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/roboto@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.0.1.tgz#60b53309884dfec0ddce9d8abd7ee8754c31d088"
-  integrity sha512-4x/TVxwMxK9Cqy3Bn2NZyQtXeYA9nMOBj+ideuRvjXg3HJCk/jJlEClUsgguCgYNQEBCYaVCjgGr4f9n+VvBuA==
+"@fontsource/roboto@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.1.0.tgz#28e0fb775013959df3a6b6d2c4ba0aad437f8d32"
+  integrity sha512-I4CIw73eJC/Oh83tPoRVKkySCLDwUQ2aK7O9wR5tRYc5APbsd3MrN6JhAvylIIwzn8eHQEMVoSjNGY9/sPLzyA==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
