@@ -1,4 +1,4 @@
-module.exports = function (plop) {
+module.exports = plop => {
   plop.setGenerator('component', {
     description: 'create a new component',
     prompts: [
@@ -11,7 +11,7 @@ module.exports = function (plop) {
     actions: [
       {
         type: 'add',
-        path: 'src/components/{{name}}/index.tsx',
+        path: 'src/components/{{name}}/index.ts',
         templateFile: 'plop-templates/component/index.ts.hbs',
       },
       {
