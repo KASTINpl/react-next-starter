@@ -1,6 +1,7 @@
 # react-next-starter
 
 ![Github Workflow](https://github.com/KASTINpl/react-next-starter/workflows/Github%20Workflow/badge.svg)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 
 Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usable developer tools included
 
@@ -16,6 +17,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - Github workflow for `lint` and `test`
 - [PlopJS](https://plopjs.com) scripts
 - bonus: `WindowProgressBar` component (loading page indicator)
+- bonus2: `WhiteSource` [Renovate](https://renovatebot.com) integration setup
 
 ## Getting started
 
