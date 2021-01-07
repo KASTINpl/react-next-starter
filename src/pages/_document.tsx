@@ -10,7 +10,6 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.svg" />
           <link rel="mask-icon" href="/favicon.svg" color="#000000" />
           <link rel="apple-touch-icon" href="/favicon.png" />
-          <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         </Head>
         <body>
           <Main />

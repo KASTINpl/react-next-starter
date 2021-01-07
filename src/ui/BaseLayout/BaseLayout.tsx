@@ -10,6 +10,7 @@ export const BaseLayout: React.FC<BaseLayoutProps> = ({ title, children }) => {
     <>
       <Head>
         <meta name="theme-color" content={theme.palette.primary.main} />
+        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <title>{title}</title>
       </Head>
       {children}
