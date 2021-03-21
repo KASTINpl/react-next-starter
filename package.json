@@ -18,12 +18,8 @@
     "lint:types": "eslint '*/**/*.{js,ts,tsx}'",
     "lint:format": "yarn prettier --check --ignore-unknown .",
     "storybook": "start-storybook -c src/storybook/config -p 6006",
-    "build-storybook": "build-storybook -c src/storybook/config"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "build-storybook": "build-storybook -c src/storybook/config",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --cache --fix",
