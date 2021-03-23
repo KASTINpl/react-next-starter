@@ -35,7 +35,7 @@
     "next": "10.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-redux": "7.2.2",
+    "react-redux": "7.2.3",
     "redux-devtools": "3.7.0"
   },
   "devDependencies": {
