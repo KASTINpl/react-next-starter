@@ -7,6 +7,9 @@ import { RenderWithReduxType } from './types'
 
 export const renderWithRedux: RenderWithReduxType = (
   component,
+  // todo: remove after bugfix https://github.com/reduxjs/redux/pull/4078
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
   { initialState, store = createStore(reducer, initialState) }
 ) => {
   return {
