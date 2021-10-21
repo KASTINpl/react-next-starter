@@ -8,7 +8,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 ## Features
 
 - [React](https://github.com/facebook/react/) ^17 + [Next.js](https://nextjs.org) ^11 + [TypeScript](https://github.com/Microsoft/TypeScript) ^4
-- [MaterialUI](https://material-ui.com) ^5 with [SSR support](https://github.com/mui-org/material-ui/tree/master/examples/nextjs)
+- [MUI](https://mui.com/) - Material UI ^5 with [SSR support](https://github.com/mui-org/material-ui/tree/master/examples/nextjs)
 - [Prettier](https://github.com/prettier/prettier) + [ESLint](https://github.com/eslint/eslint) + [AirBnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) + [Husky](https://github.com/typicode/husky)
 - [Redux](https://redux.js.org) + [Redux toolkit](https://redux-toolkit.js.org)
 - [Cypress](https://github.com/cypress-io/cypress) for `test:e2e`
