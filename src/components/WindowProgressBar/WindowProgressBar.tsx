@@ -1,4 +1,5 @@
-import { Box, LinearProgress } from '@material-ui/core'
+import LinearProgress from '@mui/material/LinearProgress'
+import Box from '@mui/material/Box'
 import React from 'react'
 
 export const WindowProgressBar: React.FC = () => {

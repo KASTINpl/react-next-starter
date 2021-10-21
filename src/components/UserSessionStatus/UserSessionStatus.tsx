@@ -1,4 +1,4 @@
-import { Alert } from '@material-ui/core'
+import Alert from '@mui/material/Alert'
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { getSessionStatus } from 'store/session'

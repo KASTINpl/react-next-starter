@@ -1,4 +1,4 @@
-import { createTheme } from '@material-ui/core'
+import { createTheme } from '@mui/material/styles'
 import '@fontsource/roboto'
 
 export const theme = createTheme({
