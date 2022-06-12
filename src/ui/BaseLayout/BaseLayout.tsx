@@ -1,9 +1,9 @@
 import { useTheme } from '@mui/material/styles'
 import Head from 'next/head'
-import React from 'react'
+import { FC, PropsWithChildren } from 'react'
 import { BaseLayoutProps } from './types'
 
-export const BaseLayout: React.FC<BaseLayoutProps> = ({ title, children }) => {
+export const BaseLayout: FC<PropsWithChildren<BaseLayoutProps>> = ({ title, children }) => {
   const theme = useTheme()
 
   return (

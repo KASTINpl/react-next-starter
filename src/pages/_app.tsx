@@ -1,20 +1,20 @@
+import createCache from '@emotion/cache'
+import { CacheProvider } from '@emotion/react'
 import WindowProgressBar from 'components/WindowProgressBar'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
-import React, { useEffect, useState } from 'react'
-import { CacheProvider } from '@emotion/react'
-import createCache from '@emotion/cache'
+import { FC, useEffect, useState } from 'react'
 import AppStoreProvider from 'store/AppStoreProvider'
 import AppThemeProvider from 'ui/AppThemeProvider'
 
 const cache = createCache({ key: 'css', prepend: true })
 cache.compat = true
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter()
   const [showProgressBar, setShowProgressBar] = useState<boolean>(false)
 
-  React.useEffect(() => {
+  useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector('#jss-server-side')
     if (jssStyles) {

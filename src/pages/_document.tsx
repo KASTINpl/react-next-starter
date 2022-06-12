@@ -2,7 +2,7 @@ import createCache from '@emotion/cache'
 import { CacheProvider } from '@emotion/react'
 import createEmotionServer from '@emotion/server/create-instance'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
-import * as React from 'react'
+import { Children } from 'react'
 import { theme } from 'ui/AppThemeProvider'
 
 function getCache() {
@@ -89,6 +89,6 @@ MyDocument.getInitialProps = async ctx => {
   return {
     ...initialProps,
     // Styles fragment is rendered after the app and page rendering finish.
-    styles: [...React.Children.toArray(initialProps.styles), ...emotionStyleTags],
+    styles: [...Children.toArray(initialProps.styles), ...emotionStyleTags],
   }
 }

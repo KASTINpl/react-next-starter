@@ -1,9 +1,9 @@
 import Box from '@mui/material/Box'
-import React from 'react'
+import { FC, PropsWithChildren } from 'react'
 import BaseLayout from '../BaseLayout'
 import { BoxLayoutProps } from './types'
 
-export const BoxLayout: React.FC<BoxLayoutProps> = ({ title, children }) => {
+export const BoxLayout: FC<PropsWithChildren<BoxLayoutProps>> = ({ title, children }) => {
   return (
     <BaseLayout title={title}>
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>{children}</Box>
