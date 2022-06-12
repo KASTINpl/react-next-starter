@@ -4,10 +4,10 @@ import Container from '@mui/material/Container'
 import Paper from '@mui/material/Paper'
 import Typography from '@mui/material/Typography'
 import { useRouter } from 'next/router'
-import React from 'react'
+import { FC } from 'react'
 import BoxLayout from 'ui/BoxLayout'
 
-const NotFound: React.FC = () => {
+const NotFound: FC = () => {
   const router = useRouter()
   return (
     <BoxLayout title="Page not found">
