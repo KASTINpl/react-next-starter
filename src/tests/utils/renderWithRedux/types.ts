@@ -1,5 +1,5 @@
 import { RenderResult } from '@testing-library/react'
-import React from 'react'
+import { ReactNode } from 'react'
 import { Store } from 'redux'
 import { AppState } from 'store/AppStoreProvider'
 
@@ -9,7 +9,7 @@ export interface RenderResultStore extends RenderResult {
 
 export interface RenderWithReduxType {
   (
-    component: React.ReactNode,
+    component: ReactNode,
     props?: {
       initialState: AppState
       store?: Store

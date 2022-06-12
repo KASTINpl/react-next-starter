@@ -1,4 +1,3 @@
-import React from 'react'
 import renderWithRedux from 'tests/utils/renderWithRedux'
 import { UserSessionStatus } from './UserSessionStatus'
 
