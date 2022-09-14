@@ -42,10 +42,10 @@
     "redux-devtools": "3.7.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "6.5.11",
-    "@storybook/addon-essentials": "6.5.11",
-    "@storybook/addon-links": "6.5.11",
-    "@storybook/react": "6.5.11",
+    "@storybook/addon-actions": "6.5.12",
+    "@storybook/addon-essentials": "6.5.12",
+    "@storybook/addon-links": "6.5.12",
+    "@storybook/react": "6.5.12",
     "@testing-library/dom": "8.17.1",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
