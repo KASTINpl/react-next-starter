@@ -32,7 +32,7 @@
     "@emotion/styled": "11.10.5",
     "@fontsource/roboto": "4.5.8",
     "@mui/icons-material": "5.11.0",
-    "@mui/material": "5.11.5",
+    "@mui/material": "5.11.6",
     "@reduxjs/toolkit": "1.9.1",
     "clsx": "1.2.1",
     "next": "12.3.4",
