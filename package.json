@@ -33,7 +33,7 @@
     "@fontsource/roboto": "4.5.8",
     "@mui/icons-material": "5.11.0",
     "@mui/material": "5.11.6",
-    "@reduxjs/toolkit": "1.9.1",
+    "@reduxjs/toolkit": "1.9.2",
     "clsx": "1.2.1",
     "next": "12.3.4",
     "react": "18.2.0",
