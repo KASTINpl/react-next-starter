@@ -13,7 +13,7 @@ Next.js starter with TS, MaterialUI, Redux, Storybook, Cypress and many more usa
 - [Redux](https://redux.js.org) + [Redux toolkit](https://redux-toolkit.js.org)
 - [Cypress](https://github.com/cypress-io/cypress) for `test:e2e`
 - [Jest](https://github.com/facebook/jest) + [Testing library](https://testing-library.com) for `test:unit`
-- [Storybook](https://github.com/storybooks/storybook) ^6
+- [Storybook](https://github.com/storybooks/storybook) ^7
 - Github workflow for `lint` and `test`
 - [PlopJS](https://plopjs.com) scripts
 - bonus: `WindowProgressBar` component (loading page indicator)
