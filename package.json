@@ -26,10 +26,10 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "@emotion/cache": "11.10.7",
-    "@emotion/react": "11.10.6",
+    "@emotion/cache": "11.10.8",
+    "@emotion/react": "11.10.8",
     "@emotion/server": "11.10.0",
-    "@emotion/styled": "11.10.6",
+    "@emotion/styled": "11.10.8",
     "@fontsource/roboto": "4.5.8",
     "@mui/icons-material": "5.11.16",
     "@mui/material": "5.12.2",
