@@ -6,7 +6,7 @@ import { configureStore } from '@reduxjs/toolkit'
 
 export const renderWithRedux: RenderWithReduxType = (
   component,
-  { initialState, store = configureStore({ reducer, preloadedState: initialState }) }
+  { initialState, store = configureStore({ reducer, preloadedState: initialState }) },
 ) => {
   return {
     ...render(<Provider store={store}>{component}</Provider>),
