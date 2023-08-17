@@ -13,6 +13,6 @@ export interface RenderWithReduxType {
     props?: {
       initialState: AppState
       store?: Store
-    }
+    },
   ): RenderResultStore
 }

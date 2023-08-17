@@ -12,7 +12,7 @@ function getCache() {
 }
 
 export default class MyDocument extends Document {
-  render(): JSX.Element {
+  render() {
     return (
       <Html>
         <Head>
@@ -71,7 +71,7 @@ MyDocument.getInitialProps = async ctx => {
               <Component {...props} />
             </CacheProvider>
           ),
-          { displayName: Component.displayName }
+          { displayName: Component.displayName },
         ),
     })
 
