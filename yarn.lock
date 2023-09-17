@@ -2832,10 +2832,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@testing-library/dom@9.3.1":
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-9.3.1.tgz#8094f560e9389fb973fe957af41bf766937a9ee9"
-  integrity sha512-0DGPd9AR3+iDTjGoMpxIkAsUihHZ3Ai6CneU6bRRrffXMgzCdlNk43jTrD2/5LT6CBb3MWTP8v510JzYtahD2w==
+"@testing-library/dom@9.3.2":
+  version "9.3.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-9.3.2.tgz#36fac080730fc853d4ec6ddfbee54592c7eba398"
+  integrity sha512-3D5uEQSmzBu3pTF+n5T5bylkbQ1G5xqQpoiJN5zl1CeH2PNP2dIxkftqUm7MEx2Rm+bLRxUHYTyvTUyk/b4M2g==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
