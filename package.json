@@ -57,7 +57,7 @@
     "@types/node": "18.19.71",
     "@types/react": "18.2.41",
     "@types/react-dom": "18.2.17",
-    "@types/react-redux": "7.1.31",
+    "@types/react-redux": "7.1.34",
     "@typescript-eslint/eslint-plugin": "6.13.1",
     "@typescript-eslint/parser": "6.13.1",
     "babel-jest": "29.7.0",
